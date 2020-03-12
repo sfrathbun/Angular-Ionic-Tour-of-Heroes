@@ -13,13 +13,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroDetailComponent,
     HeroesComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   entryComponents: [],
   imports: [
